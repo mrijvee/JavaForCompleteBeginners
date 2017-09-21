@@ -4,8 +4,9 @@ public class Array {
 
     public static void main(String[] args) {
         int value = 7; //this is a value variable/type
-        int[] values = new int[3]; //this is a reference variable/type
-        System.out.println(values[0]);
+        int[] values; //this is a reference variable/type
+        values = new int[3];
+        System.out.println(values[0]); //will print 0 since we haven't initialized anything yet
         values[0] = 10;
         values[1] = 20;
         values[2] = 30;
