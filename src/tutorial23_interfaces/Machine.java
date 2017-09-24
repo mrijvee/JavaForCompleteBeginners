@@ -5,11 +5,11 @@ public class Machine implements Info{ //Cannot extend an Interface. You can only
     private int id = 7;
 
     public void start() {
-        System.out.println("Machine started");
+        System.out.println("Sayiyan started");
     }
 
     @Override
     public void showInfo() {
-        System.out.println("Machine id is: " + id);
+        System.out.println("Sayiyan id is: " + id);
     }
 }

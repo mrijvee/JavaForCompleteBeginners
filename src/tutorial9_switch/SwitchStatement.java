@@ -11,10 +11,10 @@ public class SwitchStatement {
 
         switch (text) {
             case "start":
-                System.out.println("Machine started");
+                System.out.println("Sayiyan started");
                 break;
             case "stop":
-                System.out.println("Machine stopped");
+                System.out.println("Sayiyan stopped");
                 break;
             default:
                 System.out.println("Command not found");
